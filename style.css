@@ -1,0 +1,12 @@
+h1 {
+    text-align: center
+}
+
+  
+  .container-fluid {
+    float: center;
+    width: 100%;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
