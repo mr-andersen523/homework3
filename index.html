@@ -14,17 +14,15 @@
         <br>
         <br>
 
-    <div class="container-fluid">
+    <div class="container">
 
     <h2>Generate a Password</h2>
     <br>
-    <textarea
-      readonly
-      id="password"
-      placeholder="Your Secure Password"
-      aria-label="Generated Password"
-    ></textarea>
+    <input type="text" id="display">
     <br>
+    <br>
+    <label for="customRange1">Password Length</label>
+    <input type="range" class="custom-range" id="customRange1">
     <br>
     <button type="button" class="btn btn-danger">Generate Password</button>
     <button type="button" class="btn btn-secondary">Copy to Clipboard</button>
