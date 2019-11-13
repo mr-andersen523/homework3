@@ -30,7 +30,7 @@ function generate(){
 
 }
 
-//set default length display of 25
+//show character length
 document.getElementById("length").innerHTML = "Length: 8";
 
 //function to set length based on slider position
