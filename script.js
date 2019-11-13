@@ -29,3 +29,30 @@ function generate(){
     document.getElementById("lastNums").innerHTML += password + "<br/>";
 
 }
+
+//set default length display of 25
+document.getElementById("length").innerHTML = "Length: 8";
+
+//function to set length based on slider position
+document.getElementById("customRange1").oninput = function(){
+
+    if(document.getElementById("customRange1").value > 0){
+        document.getElementById("length").innerHTML = "Length: " + document.getElementById("customRange1").value;
+    }
+    else{
+        document.getElementById("length").innerHTML = "Length: 8";
+    }
+
+}
+
+//function to copy password to clipboard
+function copyPassword(){
+
+    document.getElementById("display").select();
+
+    document.execCommand("btn btn-secondary");
+
+    alert("Password copied to clipboard!");
+
+}
+
