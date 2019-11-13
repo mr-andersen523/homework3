@@ -2,11 +2,27 @@ h1 {
     text-align: center
 }
 
-  
-  .container-fluid {
-    float: center;
+.content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    padding: 20px;
     width: 100%;
-    padding: 10px;
-    background: #ffffff;
-    border: 1px solid #dddddd;
-  }
+}
+
+#display{
+    width: 100%;
+}
+
+#slider{
+    width: 100%;
+}
+
+#length{
+    display: inline-block;
+    width: 100px;
+}
+
+.previous_passwords{
+    margin-bottom: 20px;
+}
